@@ -16,7 +16,7 @@
         <!--View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="ViewController" customModule="Week6" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,6 +50,9 @@
                                 <state key="normal" title="Giriş yap">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="logInButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="naS-mL-ZkY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -61,13 +64,52 @@
                             <constraint firstItem="CnA-s7-K1z" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="sbt-zR-QsX"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nameTextField" destination="DAy-x7-skF" id="Rgr-9F-oyJ"/>
+                        <outlet property="passwordTextField" destination="daR-GM-u2l" id="lcU-ZY-SZW"/>
+                        <segue destination="iYO-tx-aSf" kind="presentation" identifier="toSuccessVC" modalPresentationStyle="fullScreen" id="5pE-n6-ZhM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="111.59420289855073" y="83.705357142857139"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="iWw-g7-rpJ">
+            <objects>
+                <viewController id="iYO-tx-aSf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ifb-Hi-08b">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nice!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dm4-5l-JJu">
+                                <rect key="frame" x="157" y="403" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="OtK-Ve-r0X"/>
+                                    <constraint firstAttribute="width" constant="100" id="PgM-qh-KU8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="07U-OJ-r2a"/>
+                        <color key="backgroundColor" systemColor="linkColor"/>
+                        <constraints>
+                            <constraint firstItem="dm4-5l-JJu" firstAttribute="centerY" secondItem="07U-OJ-r2a" secondAttribute="centerY" id="NDe-W7-WR0"/>
+                            <constraint firstItem="dm4-5l-JJu" firstAttribute="centerX" secondItem="07U-OJ-r2a" secondAttribute="centerX" id="wkZ-iP-x6W"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aQa-dV-9hd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="893" y="84"/>
+        </scene>
     </scenes>
     <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

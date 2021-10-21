@@ -8,11 +8,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Log In-->
         <scene sceneID="2Zm-uX-4sD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Xex-Hr-qC1" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="1oC-1k-56u"/>
+                    <tabBarItem key="tabBarItem" title="Log In" image="icon11" selectedImage="icon11" id="1oC-1k-56u"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="RRs-ad-3Xl">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -35,7 +35,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F8W-a5-0w7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1768" y="40"/>
+            <point key="canvasLocation" x="1893" y="88"/>
         </scene>
         <!--FirstStoryboard-->
         <scene sceneID="Wle-Up-NvQ">
@@ -45,7 +45,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9HM-uH-NN9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1850" y="698"/>
+            <point key="canvasLocation" x="1906" y="818"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="bOi-kR-9Qc">
@@ -80,11 +80,11 @@
             </objects>
             <point key="canvasLocation" x="59" y="808"/>
         </scene>
-        <!--Item-->
+        <!--Color-->
         <scene sceneID="Fks-k5-Uew">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1Rj-cd-V3r" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="A3r-4M-LAx"/>
+                    <tabBarItem key="tabBarItem" title="Color" image="icon22" selectedImage="icon22" id="A3r-4M-LAx"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="OSX-wn-5Cm">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -101,6 +101,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="icon11" width="22" height="22"/>
+        <image name="icon22" width="22" height="22"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
