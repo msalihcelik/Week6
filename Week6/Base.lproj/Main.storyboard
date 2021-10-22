@@ -28,10 +28,10 @@
         <!--SecondStoryboard-->
         <scene sceneID="AGy-96-h9W">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="F8W-a5-0w7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder storyboardName="SecondStoryboard" id="eVy-2E-2xE" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="m88-gh-KPB"/>
                 </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F8W-a5-0w7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1893" y="88"/>
         </scene>

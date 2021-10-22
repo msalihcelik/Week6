@@ -28,19 +28,19 @@ final class ViewController: UIViewController {
         tabBarController?.tabBar.items?[1].selectedImage = UIImage(named: "icon22")
     }
     
-    @IBAction func logInButtonTapped(_ sender: Any) {
+    @IBAction private func logInButtonTapped(_ sender: Any) {
         if (nameTextField.text == "" || passwordTextField.text == "") {
-            showAlertView()
+            showAlertView(viewController: self)
         } else {
             performSegue(withIdentifier: "toSuccessVC", sender: nil)
         }
     }
     
-    public func showAlertView() {
+    func showAlertView(viewController: UIViewController) {
         let alert = UIAlertController(title: "Lütfen boş alan bırakmayınız!", message: "", preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: .default)
         alert.addAction(okAction)
-        self.present(alert, animated: true)
+        viewController.present(alert, animated: true)
     }
     
 }
