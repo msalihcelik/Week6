@@ -24,8 +24,8 @@ final class ViewController: UIViewController {
         tabBarController?.tabBar.items?[0].image = UIImage(named: "icon11")
         tabBarController?.tabBar.items?[0].selectedImage = UIImage(named: "icon11")
         tabBarController?.tabBar.items?[1].setTitleTextAttributes([NSAttributedString.Key.font: UIFont(name: "WickedHalloween", size: 15)], for: .normal)
-        tabBarController?.tabBar.items?[1].image = UIImage(named: "icon11")
-        tabBarController?.tabBar.items?[1].selectedImage = UIImage(named: "icon11")
+        tabBarController?.tabBar.items?[1].image = UIImage(named: "icon22")
+        tabBarController?.tabBar.items?[1].selectedImage = UIImage(named: "icon22")
     }
     
     @IBAction func logInButtonTapped(_ sender: Any) {

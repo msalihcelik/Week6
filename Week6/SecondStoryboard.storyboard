@@ -67,7 +67,7 @@
                     <connections>
                         <outlet property="nameTextField" destination="DAy-x7-skF" id="Rgr-9F-oyJ"/>
                         <outlet property="passwordTextField" destination="daR-GM-u2l" id="lcU-ZY-SZW"/>
-                        <segue destination="iYO-tx-aSf" kind="presentation" identifier="toSuccessVC" modalPresentationStyle="fullScreen" id="5pE-n6-ZhM"/>
+                        <segue destination="iYO-tx-aSf" kind="push" identifier="toSuccessVC" id="5pE-n6-ZhM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -79,11 +79,11 @@
             <objects>
                 <viewController id="iYO-tx-aSf" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ifb-Hi-08b">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nice!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dm4-5l-JJu">
-                                <rect key="frame" x="157" y="403" width="100" height="100"/>
+                                <rect key="frame" x="157" y="354" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="OtK-Ve-r0X"/>
                                     <constraint firstAttribute="width" constant="100" id="PgM-qh-KU8"/>
@@ -100,6 +100,7 @@
                             <constraint firstItem="dm4-5l-JJu" firstAttribute="centerX" secondItem="07U-OJ-r2a" secondAttribute="centerX" id="wkZ-iP-x6W"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="6tc-9r-eUp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aQa-dV-9hd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

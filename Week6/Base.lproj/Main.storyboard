@@ -3,8 +3,6 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,7 +18,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="eVy-2E-2xE" kind="relationship" relationship="rootViewController" id="N26-88-HqP"/>
+                        <segue destination="eVy-2E-2xE" kind="relationship" relationship="rootViewController" id="oMq-ML-eId"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ARw-Et-x65" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -30,10 +28,10 @@
         <!--SecondStoryboard-->
         <scene sceneID="AGy-96-h9W">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F8W-a5-0w7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewControllerPlaceholder storyboardName="SecondStoryboard" id="eVy-2E-2xE" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="m88-gh-KPB"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="F8W-a5-0w7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1893" y="88"/>
         </scene>
@@ -53,6 +51,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="9ex-ty-B5L" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Lkx-ng-pcl">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -64,21 +63,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jQW-Vh-TAW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="111.59420289855073" y="88.392857142857139"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Dgi-SC-TQe">
-            <objects>
-                <viewController id="MOd-ZD-2ac" customClass="ViewController" customModule="Week6" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vtQ-8o-mez">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="M98-Mr-qaa"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0WR-pS-l2U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="59" y="808"/>
         </scene>
         <!--Color-->
         <scene sceneID="Fks-k5-Uew">
@@ -92,7 +76,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="tc6-GG-qDr" kind="relationship" relationship="rootViewController" id="mFI-NU-3mF"/>
+                        <segue destination="tc6-GG-qDr" kind="relationship" relationship="rootViewController" id="kcs-dq-81n"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9ce-yV-L6f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -103,8 +87,5 @@
     <resources>
         <image name="icon11" width="22" height="22"/>
         <image name="icon22" width="22" height="22"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
