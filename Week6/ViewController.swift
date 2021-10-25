@@ -30,17 +30,10 @@ final class ViewController: UIViewController {
     
     @IBAction private func logInButtonTapped(_ sender: Any) {
         if (nameTextField.text == "" || passwordTextField.text == "") {
-            showAlertView(viewController: self)
+            AlertViewCreator.shared.showAlertView(viewController: self)
         } else {
             performSegue(withIdentifier: "toSuccessVC", sender: nil)
         }
-    }
-    
-    func showAlertView(viewController: UIViewController) {
-        let alert = UIAlertController(title: "Lütfen boş alan bırakmayınız!", message: "", preferredStyle: .alert)
-        let okAction = UIAlertAction(title: "OK", style: .default)
-        alert.addAction(okAction)
-        viewController.present(alert, animated: true)
     }
     
 }

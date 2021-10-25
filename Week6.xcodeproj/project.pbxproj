@@ -16,6 +16,7 @@
 		6729B260272037F80081C165 /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6729B25F272037F80081C165 /* SecondStoryboard.storyboard */; };
 		6729B263272194690081C165 /* Wicked Halloween.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6729B262272194690081C165 /* Wicked Halloween.ttf */; };
 		6729B26527219DCD0081C165 /* FirstStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6729B26427219DCD0081C165 /* FirstStoryboard.storyboard */; };
+		673591E92726C56F00941AAD /* AlertViewCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673591E82726C56F00941AAD /* AlertViewCreator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		6729B25F272037F80081C165 /* SecondStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondStoryboard.storyboard; sourceTree = "<group>"; };
 		6729B262272194690081C165 /* Wicked Halloween.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wicked Halloween.ttf"; sourceTree = "<group>"; };
 		6729B26427219DCD0081C165 /* FirstStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstStoryboard.storyboard; sourceTree = "<group>"; };
+		673591E82726C56F00941AAD /* AlertViewCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewCreator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				6729B261272194250081C165 /* Fonts */,
+				673591E82726C56F00941AAD /* AlertViewCreator.swift */,
 				6729B24B272033EB0081C165 /* AppDelegate.swift */,
 				6729B24D272033EB0081C165 /* SceneDelegate.swift */,
 				6729B24F272033EB0081C165 /* ViewController.swift */,
@@ -159,6 +162,7 @@
 			files = (
 				6729B250272033EB0081C165 /* ViewController.swift in Sources */,
 				6729B24C272033EB0081C165 /* AppDelegate.swift in Sources */,
+				673591E92726C56F00941AAD /* AlertViewCreator.swift in Sources */,
 				6729B24E272033EB0081C165 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
