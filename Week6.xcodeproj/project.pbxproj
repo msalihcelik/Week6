@@ -64,17 +64,14 @@
 		6729B24A272033EB0081C165 /* Week6 */ = {
 			isa = PBXGroup;
 			children = (
+				673591EB2726CD0700941AAD /* View */,
+				673591EA2726CCFD00941AAD /* Controller */,
 				6729B261272194250081C165 /* Fonts */,
-				673591E82726C56F00941AAD /* AlertViewCreator.swift */,
 				6729B24B272033EB0081C165 /* AppDelegate.swift */,
 				6729B24D272033EB0081C165 /* SceneDelegate.swift */,
-				6729B24F272033EB0081C165 /* ViewController.swift */,
-				6729B251272033EB0081C165 /* Main.storyboard */,
 				6729B254272033EC0081C165 /* Assets.xcassets */,
 				6729B256272033EC0081C165 /* LaunchScreen.storyboard */,
 				6729B259272033EC0081C165 /* Info.plist */,
-				6729B25F272037F80081C165 /* SecondStoryboard.storyboard */,
-				6729B26427219DCD0081C165 /* FirstStoryboard.storyboard */,
 			);
 			path = Week6;
 			sourceTree = "<group>";
@@ -85,6 +82,25 @@
 				6729B262272194690081C165 /* Wicked Halloween.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		673591EA2726CCFD00941AAD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6729B24F272033EB0081C165 /* ViewController.swift */,
+				673591E82726C56F00941AAD /* AlertViewCreator.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		673591EB2726CD0700941AAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6729B251272033EB0081C165 /* Main.storyboard */,
+				6729B25F272037F80081C165 /* SecondStoryboard.storyboard */,
+				6729B26427219DCD0081C165 /* FirstStoryboard.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
