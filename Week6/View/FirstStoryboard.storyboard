@@ -28,33 +28,28 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rSb-OC-8QC">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
                                                         <color key="backgroundColor" systemColor="systemPinkColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="414" id="kQY-bx-frC"/>
-                                                        </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iix-aW-b3M">
                                                         <rect key="frame" x="414" y="0.0" width="414" height="818"/>
                                                         <color key="backgroundColor" systemColor="labelColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="414" id="xii-FC-Rkv"/>
-                                                        </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yTt-0w-Kce">
                                                         <rect key="frame" x="828" y="0.0" width="414" height="818"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="414" id="AK2-xL-GES"/>
-                                                        </constraints>
                                                     </view>
                                                 </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="yTt-0w-Kce" firstAttribute="width" secondItem="iix-aW-b3M" secondAttribute="width" id="JrY-6E-oFm"/>
+                                                    <constraint firstItem="iix-aW-b3M" firstAttribute="width" secondItem="rSb-OC-8QC" secondAttribute="width" id="g1b-tg-TlT"/>
+                                                </constraints>
                                             </stackView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                         <constraints>
-                                            <constraint firstItem="2vu-5C-FKW" firstAttribute="leading" secondItem="jqM-5P-1c0" secondAttribute="leading" id="Bzd-rj-5T4"/>
-                                            <constraint firstAttribute="trailing" secondItem="2vu-5C-FKW" secondAttribute="trailing" id="SMq-Td-duh"/>
-                                            <constraint firstAttribute="bottom" secondItem="2vu-5C-FKW" secondAttribute="bottom" id="o3l-hf-T65"/>
-                                            <constraint firstItem="2vu-5C-FKW" firstAttribute="top" secondItem="jqM-5P-1c0" secondAttribute="top" id="sca-UV-j5A"/>
+                                            <constraint firstItem="2vu-5C-FKW" firstAttribute="top" secondItem="jqM-5P-1c0" secondAttribute="top" id="8Cv-al-Rp9"/>
+                                            <constraint firstItem="2vu-5C-FKW" firstAttribute="leading" secondItem="jqM-5P-1c0" secondAttribute="leading" id="JtG-RA-A8B"/>
+                                            <constraint firstAttribute="bottom" secondItem="2vu-5C-FKW" secondAttribute="bottom" id="xlc-jI-4bQ"/>
+                                            <constraint firstAttribute="trailing" secondItem="2vu-5C-FKW" secondAttribute="trailing" id="zpu-1W-As1"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -70,6 +65,7 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="rSb-OC-8QC" firstAttribute="width" secondItem="vDu-zF-Fre" secondAttribute="width" id="KzO-0A-ycS"/>
                             <constraint firstItem="OjD-Gj-l1m" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="X8H-SU-Nq2"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="OjD-Gj-l1m" secondAttribute="trailing" id="ZuL-Tn-kFh"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="OjD-Gj-l1m" secondAttribute="bottom" id="fyY-18-rey"/>
