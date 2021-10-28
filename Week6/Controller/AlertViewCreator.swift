@@ -5,10 +5,9 @@
 //  Created by Mehmet Salih ÇELİK on 25.10.2021.
 //
 
-import Foundation
 import UIKit
 
-class AlertViewCreator {
+final class AlertViewCreator {
     
     static let shared = AlertViewCreator()
     

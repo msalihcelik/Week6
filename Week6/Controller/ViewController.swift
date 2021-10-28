@@ -29,7 +29,7 @@ final class ViewController: UIViewController {
     }
     
     @IBAction private func logInButtonTapped(_ sender: Any) {
-        if (nameTextField.text == "" || passwordTextField.text == "") {
+        if (nameTextField.text?.isEmpty == true || passwordTextField.text?.isEmpty == true) {
             AlertViewCreator.shared.showAlertView(viewController: self)
         } else {
             performSegue(withIdentifier: "toSuccessVC", sender: nil)
